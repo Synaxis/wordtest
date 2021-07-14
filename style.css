@@ -634,68 +634,6 @@ body, img {
 	/* IE 10 */
 	flex: 1;
 }	
-	
-.bg1 {
-	
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Webp.net-resizeimage.png);
-}
-.bg2 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerGoldenKIT.jpeg);
-}
-.bg3 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/banderasHomem.jpg);
-}
-.bg4 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/BlueSeduction.png);
-}
-.bg5 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Bluefeminino-1.jpg);
-}
-.bg6 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/DeodorantBanderaH.png);
-}
-.bg7 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerSecretRoxoKIT.jpeg);
-}
-.bg8 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/casino.jpeg);
-}
-.bg9 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/powerOfSeductionsBrancoBanderas.jpg);
-}
-.bg10 {
-	background: url(https://unsplash.it/803/803);
-}
-.bg11 {
-	background: url(https://unsplash.it/803/799);
-}
-.bg12 {
-	background: url(https://unsplash.it/799/803);
-}
-.bg13 {
-	background: url(https://unsplash.it/806/799);
-}
-.bg14 {
-	background: url(https://unsplash.it/805/799);
-}
-.bg15 {
-	background: url(https://unsplash.it/798/804);
-}
-.bg16 {
-	background: url(https://unsplash.it/804/799);
-}
-.bg17 {
-	background: url(https://unsplash.it/804/804);
-}
-.bg18 {
-	background: url(https://unsplash.it/799/804);
-}
-.bg19 {
-	background: url(https://unsplash.it/798/803);
-}
-.bg20 {
-	background: url(https://unsplash.it/803/797);
-}
 .my-image-parent {
 	border-radius: 50px;
 	display: inline-block;
