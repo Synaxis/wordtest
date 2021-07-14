@@ -155,19 +155,23 @@ img {
 	font-size: 3rem;
 }
 .bg1 {
-	
+	/* HerGold1 */
 	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Webp.net-resizeimage.png);
 }
 .bg2 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerGoldenKIT.jpeg);
+	/* HerGoldKit */
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerGoldenKIT-e1626292162900.jpeg);
 }
 .bg3 {
+		/* BanderasH */
 	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/banderasHomem.jpg);
 }
 .bg4 {
+		/* BanderasHDeodorant */
 	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/BlueSeduction.png);
 }
 .bg5 {
+	/*BlueSeduction */
 	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Bluefeminino-1.jpg);
 }
 .bg6 {
@@ -209,23 +213,25 @@ img {
 }
 	/* BVlGARI aqva */
 .bg16 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/4cabad80-549d-48c5-ba95-2433396d0cda.jpeg);
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/bulgari.png);
 }
 	/* La vi est belle */
 .bg17 {
-	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/LavieEstBele.jpeg);
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/lavie2.png);
 }
-	/* Should match your div height */
+	/* CURSOS */
+
+	/* CursoChurrasco */
 .bg18 {
-	background: url(https://unsplash.it/799/804);
+	background: url(https://mizashow.com.br/wp-content/uploads/2020/10/pexels-carlo-fuentelsaz-3821692-scaled-e1626291903352.jpg);
 }
-	/* Should match your div height */
+	/* ademiaEmCasa */
 .bg19 {
-	background: url(https://unsplash.it/798/803);
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/muscEmcasa-e1626292065415.jpg);
 }
-	/* Should match your div height */
+	/* Barbeiro */
 .bg20 {
-	background: url(https://unsplash.it/803/797);
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/barbeiro-e1626291775782.png);
 }
 .my-image-parent {
 	border-radius: 50px;
