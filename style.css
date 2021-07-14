@@ -1,0 +1,1113 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	margin: 0;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a:active,
+a:hover {
+	outline: 0;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+::selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+::-moz-selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+
+/*
+ basic settings
+-------------------------------------------------------------*/
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+
+
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+@media (min-width: 30em) {
+	.photo-box, .text-box {
+		text-align: left;
+	}
+	.photo-box-thin {
+		height: 250px;
+	}
+}
+
+a:link,a:visited{
+	color: #19a69a;
+	text-decoration: none;
+}
+a:hover{
+	color: #5BCDC3;
+	text-decoration: none;
+}
+a:active{
+	color: #000;
+	text-decoration: none;
+}
+body, img {
+		-webkit-text-size-adjust: 100%;
+	min-width: 20%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	box-shadow: 0 0 1em 1em #ccc;
+	align-contentmax-width: 100%;
+	height: auto;
+	-webkit-border-radius: 4px 3px 6px 10px;
+	-moz-border-radius: 4px 3px 6px 10px;
+	-o-border-radius: 4px 3px 6px 10px;
+	border-radius: 4px 3px 6px 10px;
+	-moz-transform: scale(0.5, 0.5);
+	/* Moz-browsers */
+	zoom: 0.5;
+	/* Other non-webkit browsers */
+	zoom: 68%;
+	/* Webkit browsers */
+	background-color: red;
+	-ms-flex: 1;
+	/* IE 10 */
+	flex: 1;
+}
+
+img {
+	
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+.header-inner {
+	font-size: 3rem;
+}
+.bg1 {
+	
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Webp.net-resizeimage.png);
+}
+.bg2 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerGoldenKIT.jpeg);
+}
+.bg3 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/banderasHomem.jpg);
+}
+.bg4 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/BlueSeduction.png);
+}
+.bg5 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Bluefeminino-1.jpg);
+}
+.bg6 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/DeodorantBanderaH.png);
+}
+.bg7 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerSecretRoxoKIT.jpeg);
+}
+.bg8 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/casino.jpeg);
+}
+.bg9 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/powerOfSeductionsBrancoBanderas.jpg);
+}
+.bg10 {
+	background: url(https://unsplash.it/803/803);
+}
+.bg11 {
+	background: url(https://unsplash.it/803/799);
+}
+.bg12 {
+	background: url(https://unsplash.it/799/803);
+}
+.bg13 {
+	background: url(https://unsplash.it/806/799);
+}
+.bg14 {
+	background: url(https://unsplash.it/805/799);
+}
+.bg15 {
+	background: url(https://unsplash.it/798/804);
+}
+.bg16 {
+	background: url(https://unsplash.it/804/799);
+}
+.bg17 {
+	background: url(https://unsplash.it/804/804);
+}
+.bg18 {
+	background: url(https://unsplash.it/799/804);
+}
+.bg19 {
+	background: url(https://unsplash.it/798/803);
+}
+.bg20 {
+	background: url(https://unsplash.it/803/797);
+}
+.my-image-parent {
+	border-radius: 50px;
+	display: inline-block;
+	width: auto;
+	height: 300px;
+	line-height: 300px;
+	/* Should match your div height */
+	text-align: center;
+	font-size: 0;
+}
+.my-image:hover {
+	color:#fff;
+}
+.my-image {
+	object-fit: contain;
+	width: auto;
+	height: 105%;
+	display: flex;
+	vertical-align: middle;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+@media (max-width: 1199px) and (min-width: 991px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+@media (max-width: 450px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+
+@media (max-width: 500px) {
+    #social .fa{
+        font-size:1em;
+    }
+}
+
+/*
+ @media
+-------------------------------------------------------------*/
+@media only screen and (max-width: 720px){
+}
+
+@media only screen and (max-width: 840px){
+}
+
+
+/* mobile */
+@media only screen and (max-device-width: 480px){
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+a:active,
+a:hover {
+	outline: 0;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+::selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+::-moz-selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+
+/*
+ basic settings
+-------------------------------------------------------------*/
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+@media (min-width: 30em) {
+	.photo-box, .text-box {
+		text-align: left;
+	}
+	.photo-box-thin {
+		height: 250px;
+	}
+}
+
+a:link,a:visited{
+	color: #19a69a;
+	text-decoration: none;
+}
+a:hover{
+	color: #5BCDC3;
+	text-decoration: none;
+}
+a:active{
+	color: #000;
+	text-decoration: none;
+}
+body, img {
+	-webkit-font-feature-settings: "salt";
+    font-feature-settings: "salt";
+    font-variant-numeric: tabular-nums;
+	-webkit-text-size-adjust: 100%;
+	min-width: 20%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	box-shadow: 0 0 1em 1em #ccc;
+	align-contentmax-width: 100%;
+	height: auto;
+	-webkit-border-radius: 4px 3px 6px 10px;
+	-moz-border-radius: 4px 3px 6px 10px;
+	-o-border-radius: 4px 3px 6px 10px;
+	border-radius: 4px 3px 6px 10px;
+	-moz-transform: scale(0.5, 0.5);
+	/* Moz-browsers */
+	zoom: 0.5;
+	/* Other non-webkit browsers */
+	zoom: 68%;
+	/* Webkit browsers */
+	background-color: red;
+	-ms-flex: 1;
+	/* IE 10 */
+	flex: 1;
+}
+
+img {
+	
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+.header-inner {
+	font-size: 3rem;
+}
+.bg1 {
+	
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Webp.net-resizeimage.png);
+}
+.bg2 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerGoldenKIT.jpeg);
+}
+.bg3 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/banderasHomem.jpg);
+}
+.bg4 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/BlueSeduction.png);
+}
+.bg5 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Bluefeminino-1.jpg);
+}
+.bg6 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/DeodorantBanderaH.png);
+}
+.bg7 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerSecretRoxoKIT.jpeg);
+}
+.bg8 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/casino.jpeg);
+}
+.bg9 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/powerOfSeductionsBrancoBanderas.jpg);
+}
+.bg10 {
+	background: url(https://unsplash.it/803/803);
+}
+.bg11 {
+	background: url(https://unsplash.it/803/799);
+}
+.bg12 {
+	background: url(https://unsplash.it/799/803);
+}
+.bg13 {
+	background: url(https://unsplash.it/806/799);
+}
+.bg14 {
+	background: url(https://unsplash.it/805/799);
+}
+.bg15 {
+	background: url(https://unsplash.it/798/804);
+}
+.bg16 {
+	background: url(https://unsplash.it/804/799);
+}
+.bg17 {
+	background: url(https://unsplash.it/804/804);
+}
+.bg18 {
+	background: url(https://unsplash.it/799/804);
+}
+.bg19 {
+	background: url(https://unsplash.it/798/803);
+}
+.bg20 {
+	background: url(https://unsplash.it/803/797);
+}
+.my-image-parent {
+	border-radius: 50px;
+	display: inline-block;
+	width: auto;
+	height: 300px;
+	line-height: 300px;
+	/* Should match your div height */
+	text-align: center;
+	font-size: 0;
+}
+.my-image:hover {
+	color:#fff;
+}
+.my-image {
+	object-fit: contain;
+	width: auto;
+	height: 105%;
+	display: flex;
+	vertical-align: middle;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+@media (max-width: 1199px) and (min-width: 991px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+@media (max-width: 450px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+
+@media (max-width: 500px) {
+    #social .fa{
+        font-size:1em;
+    }
+}
+
+/*
+ @media
+-------------------------------------------------------------*/
+@media only screen and (max-width: 720px){
+}
+
+@media only screen and (max-width: 840px){
+}
+
+
+/* mobile */
+@media only screen and (max-device-width: 480px){
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+a:active,
+a:hover {
+	outline: 0;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+::selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+::-moz-selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+
+/*
+ basic settings
+-------------------------------------------------------------*/
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+
+
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+@media (min-width: 30em) {
+	.photo-box, .text-box {
+		text-align: left;
+	}
+	.photo-box-thin {
+		height: 250px;
+	}
+}
+
+a:link,a:visited{
+	color: #19a69a;
+	text-decoration: none;
+}
+a:hover{
+	color: #5BCDC3;
+	text-decoration: none;
+}
+a:active{
+	color: #000;
+	text-decoration: none;
+}
+body, img {
+		-webkit-text-size-adjust: 100%;
+	min-width: 20%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	box-shadow: 0 0 1em 1em #ccc;
+	align-contentmax-width: 100%;
+	height: auto;
+	-webkit-border-radius: 4px 3px 6px 10px;
+	-moz-border-radius: 4px 3px 6px 10px;
+	-o-border-radius: 4px 3px 6px 10px;
+	border-radius: 4px 3px 6px 10px;
+	-moz-transform: scale(0.5, 0.5);
+	/* Moz-browsers */
+	zoom: 0.5;
+	/* Other non-webkit browsers */
+	zoom: 68%;
+	/* Webkit browsers */
+	background-color: red;
+	-ms-flex: 1;
+	/* IE 10 */
+	flex: 1;
+}
+
+img {
+	
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+.header-inner {
+	font-size: 3rem;
+}
+.bg1 {
+	
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Webp.net-resizeimage.png);
+}
+.bg2 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerGoldenKIT.jpeg);
+}
+.bg3 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/banderasHomem.jpg);
+}
+.bg4 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/BlueSeduction.png);
+}
+.bg5 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Bluefeminino-1.jpg);
+}
+.bg6 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/DeodorantBanderaH.png);
+}
+.bg7 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerSecretRoxoKIT.jpeg);
+}
+.bg8 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/casino.jpeg);
+}
+.bg9 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/powerOfSeductionsBrancoBanderas.jpg);
+}
+.bg10 {
+	background: url(https://unsplash.it/803/803);
+}
+.bg11 {
+	background: url(https://unsplash.it/803/799);
+}
+.bg12 {
+	background: url(https://unsplash.it/799/803);
+}
+.bg13 {
+	background: url(https://unsplash.it/806/799);
+}
+.bg14 {
+	background: url(https://unsplash.it/805/799);
+}
+.bg15 {
+	background: url(https://unsplash.it/798/804);
+}
+.bg16 {
+	background: url(https://unsplash.it/804/799);
+}
+.bg17 {
+	background: url(https://unsplash.it/804/804);
+}
+.bg18 {
+	background: url(https://unsplash.it/799/804);
+}
+.bg19 {
+	background: url(https://unsplash.it/798/803);
+}
+.bg20 {
+	background: url(https://unsplash.it/803/797);
+}
+.my-image-parent {
+	border-radius: 50px;
+	display: inline-block;
+	width: auto;
+	height: 300px;
+	line-height: 300px;
+	/* Should match your div height */
+	text-align: center;
+	font-size: 0;
+}
+.my-image:hover {
+	color:#fff;
+}
+.my-image {
+	object-fit: contain;
+	width: auto;
+	height: 105%;
+	display: flex;
+	vertical-align: middle;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+@media (max-width: 1199px) and (min-width: 991px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+@media (max-width: 450px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+
+@media (max-width: 500px) {
+    #social .fa{
+        font-size:1em;
+    }
+}
+
+/*
+ @media
+-------------------------------------------------------------*/
+@media only screen and (max-width: 720px){
+}
+
+@media only screen and (max-width: 840px){
+}
+
+
+/* mobile */
+@media only screen and (max-device-width: 480px){
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+a:active,
+a:hover {
+	outline: 0;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+
+::selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+::-moz-selection {
+	background: #3cb5aa;
+	color: #1a1a1a;
+}
+
+/*
+ basic settings
+-------------------------------------------------------------*/
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+html,body{
+	height: 100%;
+}
+
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+
+
+/*
+ webkit-scrollbar
+---------------------------------------------------*/
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #d5d5d5;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0px 0px 2px rgba(200,200,200,1);
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e5e5e5;
+}
+
+@media (min-width: 30em) {
+	.photo-box, .text-box {
+		text-align: left;
+	}
+	.photo-box-thin {
+		height: 250px;
+	}
+}
+
+a:link,a:visited{
+	color: #19a69a;
+	text-decoration: none;
+}
+a:hover{
+	color: #5BCDC3;
+	text-decoration: none;
+}
+a:active{
+	color: #000;
+	text-decoration: none;
+}
+body, img {
+		-webkit-text-size-adjust: 100%;
+	min-width: 20%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	box-shadow: 0 0 1em 1em #ccc;
+	align-contentmax-width: 100%;
+	height: auto;
+	-webkit-border-radius: 4px 3px 6px 10px;
+	-moz-border-radius: 4px 3px 6px 10px;
+	-o-border-radius: 4px 3px 6px 10px;
+	border-radius: 4px 3px 6px 10px;
+	-moz-transform: scale(0.5, 0.5);
+	/* Moz-browsers */
+	zoom: 0.5;
+	/* Other non-webkit browsers */
+	zoom: 68%;
+	/* Webkit browsers */
+	background-color: red;
+	-ms-flex: 1;
+	/* IE 10 */
+	flex: 1;
+}
+
+img {
+	
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+.header-inner {
+	font-size: 3rem;
+}
+.bg1 {
+	
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Webp.net-resizeimage.png);
+}
+.bg2 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerGoldenKIT.jpeg);
+}
+.bg3 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/banderasHomem.jpg);
+}
+.bg4 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/BlueSeduction.png);
+}
+.bg5 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/Bluefeminino-1.jpg);
+}
+.bg6 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/DeodorantBanderaH.png);
+}
+.bg7 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/HerSecretRoxoKIT.jpeg);
+}
+.bg8 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/casino.jpeg);
+}
+.bg9 {
+	background: url(https://mizashow.com.br/wp-content/uploads/2021/07/powerOfSeductionsBrancoBanderas.jpg);
+}
+.bg10 {
+	background: url(https://unsplash.it/803/803);
+}
+.bg11 {
+	background: url(https://unsplash.it/803/799);
+}
+.bg12 {
+	background: url(https://unsplash.it/799/803);
+}
+.bg13 {
+	background: url(https://unsplash.it/806/799);
+}
+.bg14 {
+	background: url(https://unsplash.it/805/799);
+}
+.bg15 {
+	background: url(https://unsplash.it/798/804);
+}
+.bg16 {
+	background: url(https://unsplash.it/804/799);
+}
+.bg17 {
+	background: url(https://unsplash.it/804/804);
+}
+.bg18 {
+	background: url(https://unsplash.it/799/804);
+}
+.bg19 {
+	background: url(https://unsplash.it/798/803);
+}
+.bg20 {
+	background: url(https://unsplash.it/803/797);
+}
+.my-image-parent {
+	border-radius: 50px;
+	display: inline-block;
+	width: auto;
+	height: 300px;
+	line-height: 300px;
+	/* Should match your div height */
+	text-align: center;
+	font-size: 0;
+}
+.my-image:hover {
+	color:#fff;
+}
+.my-image {
+	object-fit: contain;
+	width: auto;
+	height: 105%;
+	display: flex;
+	vertical-align: middle;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+@media (max-width: 1199px) and (min-width: 991px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+@media (max-width: 450px){
+   .logo-small{
+    display:block;
+   }
+   .logo-large{
+    display:none;
+   }
+}
+
+
+@media (max-width: 500px) {
+    #social .fa{
+        font-size:1em;
+    }
+}
+
+/*
+ @media
+-------------------------------------------------------------*/
+@media only screen and (max-width: 720px){
+}
+
+@media only screen and (max-width: 840px){
+}
+
+
+/* mobile */
+@media only screen and (max-device-width: 480px){
+}
