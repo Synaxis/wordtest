@@ -43,6 +43,7 @@ template {
 }
 a {
     background-color: transparent;
+    font-size: 80%;
 }
 a:active,
 a:hover {
@@ -909,12 +910,12 @@ textarea {
     line-height: inherit;
 }
 a {
-    color: #337ab7;
+    color: #5e5e5e;
     text-decoration: none;
 }
 a:hover,
 a:focus {
-    color: #23527c;
+    color: #a2a2a2;
     text-decoration: underline;
 }
 a:focus {
