@@ -84,10 +84,18 @@ sub {
     bottom: -0.25em;
 }
 img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 50px);
+  grid-auto-flow: row;
+  background-color:#f06923;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  background-color:#34a6db;
     border-radius: 50px;
 	display: inline-block;
 	width: auto;
-	height: 300px;
 	line-height: 300px;
 	/* Should match your div height */
 	text-align: center;
@@ -1401,9 +1409,9 @@ pre code {
         width: 750px;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 360px) {
     .container {
-        width: 970px;
+        width: 470px;
     }
 }
 @media (min-width: 1200px) {
@@ -1810,7 +1818,7 @@ pre code {
         margin-left: 0;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 360px) {
     .col-md-1,
     .col-md-2,
     .col-md-3,
@@ -5676,9 +5684,9 @@ button.close {
         width: 300px;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 360px) {
     .modal-lg {
-        width: 900px;
+        width: 400px;
     }
 }
 .tooltip {
@@ -6295,7 +6303,7 @@ button.close {
         display: inline-block !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 360px) and (max-width: 1199px) {
     .visible-md {
         display: block !important;
     }
@@ -6310,17 +6318,17 @@ button.close {
         display: table-cell !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 360px) and (max-width: 1199px) {
     .visible-md-block {
         display: block !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 360px) and (max-width: 1199px) {
     .visible-md-inline {
         display: inline !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 360px) and (max-width: 1199px) {
     .visible-md-inline-block {
         display: inline-block !important;
     }
@@ -6365,7 +6373,7 @@ button.close {
         display: none !important;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 360px) and (max-width: 1199px) {
     .hidden-md {
         display: none !important;
     }
