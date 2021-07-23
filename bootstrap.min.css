@@ -84,6 +84,14 @@ sub {
     bottom: -0.25em;
 }
 img {
+    border-radius: 50px;
+	display: inline-block;
+	width: auto;
+	height: 300px;
+	line-height: 300px;
+	/* Should match your div height */
+	text-align: center;
+	font-size: 0;
     border: 0;
 }
 svg:not(:root) {
